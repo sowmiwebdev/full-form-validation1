@@ -1,4 +1,4 @@
- @media(max-width:576px){
+ /* @media(max-width:576px){
     
     .header{
         text-align: center;
@@ -39,8 +39,10 @@
 }  
 
 @media(max-width:360px){
+   
     .form{
-        width: 60%;
+        width: 80%;
+        flex-direction: column;
         margin:0px 70px ;
     }
     .formControl-2{
@@ -81,5 +83,54 @@
     }
     .header{
         font-size:  50px;
+    }
+} */
+
+@media(max-width:360px){
+    
+    .form{
+        flex-direction: column;
+        margin-left: 40%;
+        width: 40%;
+        border: none;
+        background-color:rgb(75, 139, 75);
+    }
+    .formControl-1{
+        margin-left: 0px;
+    }
+    .formControl-2{
+        width: 310px;
+        /* text-align: center; */
+        /* margin: 10px 150px 20px 20px;  */
+       text-align: left;
+       margin-top: 10px;
+    }
+    .phone1{
+        width:15%;
+    }
+    .state{
+        width: 60%;
+    }
+    .motherTongue{
+        width: 60%;
+    } 
+    .f-name , .l-name{
+        width: 45%;
+        padding-right: 400px;
+    }
+    .declare{
+        width: 100%;
+        text-align: center;
+    }
+    .parentsDetails{
+        width: 400px;
+    }
+    .btn{
+        width: 80%; 
+        /* text-align: center; */
+        margin-left: 10px;
+    }
+    .btn1, .btn2{
+        padding: 5px 10px;
     }
 }

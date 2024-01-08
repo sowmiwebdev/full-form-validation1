@@ -42,16 +42,19 @@ body{
 .form-Control input{
     padding: 7px 5px;
     border: 2px solid white;
-    margin-top: 7px;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 .firstname{
-    margin-right: 5px;
+    margin: 10px 0 10px;
 }
-.name input{
-    padding-right: 70px;
-    font-size: 15px;
+.lastname{
+    margin: 10px 0 10px;
+}
+.firstname , .lastname{
+    margin-right: 5px;
+    width: 40%;
 }
 .email{
     padding-right: 100px;
@@ -107,14 +110,14 @@ body{
     width: 50%;
     height: 33px;
 }
-.fathername{
-    margin: 10px 0 20px;
+
+.fa-name{
+    width: 80%;
 }
-.mothername{
-    margin: 10px 0 20px;
-}
+.mo-name{
+    width: 80%;
+} 
 .f-name , .l-name{
-    margin-right: 5px;
     width: 40%;
 }
 .declare{
