@@ -1,4 +1,4 @@
- /* @media(max-width:576px){
+ @media(max-width:576px){
     
     .header{
         text-align: center;
@@ -43,7 +43,7 @@
     .form{
         width: 80%;
         flex-direction: column;
-        margin:0px 70px ;
+        margin:0px 20px ;
     }
     .formControl-2{
         width: 280px;
@@ -81,12 +81,10 @@
     .mobile-Check{
         width: 160%;
     }
-    .header{
-        font-size:  50px;
-    }
-} */
-
-@media(max-width:360px){
+    
+}
+/* 
+ @media(max-width:360px){
     
     .form{
         flex-direction: column;
@@ -99,10 +97,7 @@
         margin-left: 0px;
     }
     .formControl-2{
-        width: 310px;
-        /* text-align: center; */
-        /* margin: 10px 150px 20px 20px;  */
-       text-align: left;
+        margin: 10px 20px 10px 120px;
        margin-top: 10px;
     }
     .phone1{
@@ -119,7 +114,7 @@
         padding-right: 400px;
     }
     .declare{
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
     .parentsDetails{
@@ -127,10 +122,9 @@
     }
     .btn{
         width: 80%; 
-        /* text-align: center; */
-        margin-left: 10px;
+        margin-left: 40px;
     }
     .btn1, .btn2{
         padding: 5px 10px;
     }
-}
+}    */
