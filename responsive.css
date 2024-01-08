@@ -1,0 +1,85 @@
+ @media(max-width:576px){
+    
+    .header{
+        text-align: center;
+    }
+    .form{     
+        flex-direction: column;
+        margin-left: 20px ;       
+        border: none;
+        background-color:rgb(75, 139, 75);
+
+    }
+    .formControl-2{
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+    .declare{
+        width: 80%;
+        text-align: center;
+    }
+    .declare2{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .btn{
+        width: 450px; 
+        text-align:left;
+        margin-left: 50px;
+    }
+    .name input{
+        padding-right: 0px;
+    }
+    .name{
+        width: 140%;
+    }
+    .mobile-Check{
+        width: 160%;
+    }
+}  
+
+@media(max-width:360px){
+    .form{
+        width: 80%;
+        margin:0px 20px ;
+    }
+    .formControl-2{
+        width: 280px;
+        margin-left: 55px;
+    }
+    .name{
+        width: 140%;
+    }
+    .name input{
+        width: 40%;
+    }
+    .address{
+        width: 220px;
+    }
+    .f-name , .l-name{
+        margin-right: 5px;
+        width: 45%;
+    }
+    .declare{
+        width: 100%;
+    }
+    .btn{
+        width: 100%; 
+        margin-left: 35px;
+    }
+    .btn1, .btn2{
+        padding: 5px 10px;
+    }
+    .genderCheck{
+        width: 150%;
+    }
+    .qualification-check{
+        width: 160%;
+    }
+    .mobile-Check{
+        width: 160%;
+    }
+    .header{
+        font-size:  50px;
+    }
+}
