@@ -33,7 +33,11 @@
         width: 140%;
     }
     .mobile-Check{
-        width: 160%;
+        width: 200%;
+    }
+    .f-name , .l-name{
+        margin-right: 5px;
+        width: 45%;
     }
 }  
 /* 
