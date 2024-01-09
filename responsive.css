@@ -3,12 +3,14 @@
     .header{
         text-align: center;
     }
+    body{
+        background-color:rgb(9, 134, 146);        /* overflow: hidden; */
+    }
     .form{     
         flex-direction: column;
         margin-left: 50px ;       
         border: none;
-        background-color:rgb(75, 139, 75);
-        /* overflow: hidden; */
+        background-color:rgb(9, 134, 146);        /* overflow: hidden; */
     }
     .formControl-2{
         margin-top: 10px;
