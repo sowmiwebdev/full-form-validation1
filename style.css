@@ -17,6 +17,7 @@ body{
     color:black;
     font-weight: bold;
     font-size: 15px;
+    overflow: hidden;
 }
 .form{
     width: 80%;
